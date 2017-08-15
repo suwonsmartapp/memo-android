@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity {
 
             // 메인 화면으로 이동
             startActivity(new Intent(this, MemoListActivity.class));
+
+            finish();
         } else {
             Toast.makeText(this, "비밀번호가 틀렸습니다", Toast.LENGTH_SHORT).show();
         }
