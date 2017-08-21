@@ -23,19 +23,6 @@
             android:layout_marginTop="16dp"
             android:layout_weight="1" />
 
-        <GridView
-            android:id="@+id/grid_view"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:numColumns="3"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="164dp" />
-
-        <Spinner
-            android:id="@+id/spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
     </LinearLayout>
 
 
